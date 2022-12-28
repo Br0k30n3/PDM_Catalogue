@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDM.com</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.2/themes/ui-lightness/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    
+
+    <div class="inline">
+        <h1>Find a Vehicle!</h1>
+        <h3> Type: </h3>
+        <select name="carType" id="carType">
+            <option value="any" selected>Any</option>
+            <option value="compact">Compact</option>
+            <option value="coupe">Coupe</option>
+            <option value="jobVehicle">Job Vehicle</option>
+            <option value="sedan">Sedan</option>
+            <option value="sports">Sports Car</option>
+            <option value="sports-classic">Sports(Classic)</option>
+            <option value="super">Super Car</option>
+            <option value="muscle">Muscle Car</option>
+            <option value="offroadandbike">Off-Road/Bike</option>
+            <option value="suv">SUV</option>
+            <option value="van">Van</option>
+        </select>
+        <h3> Speed Level: </h3>
+        <select name="speedLevel" id="speedLevel">
+            <option value="any" selected>Any</option>
+            <option value="slow">Slow</option>
+            <option value="medium">Medium</option>
+            <option value="fast">Fast</option>
+            <option value="xtreme">Xtreme</option>
+        </select>
+        <h3> Occupacy: </h3>
+        <select name="occupacy" id="occupacy">
+            <option value="any" selected>Any</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <div id = "priceBox">
+            <p class="box">
+                <h3>Price Range</h3>
+                <input type="text" id="amount" readonly class="goldSliderText">
+            </p>
+            <div id="slider-range"></div>
+        </div>
+        <br><br>
+        <button id="Search">Search</button> 
+    </div>
+    
+    
+
+
+    <div id="Placeholder"></div>
+
+    <script type="application/json" src="inventory.json"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

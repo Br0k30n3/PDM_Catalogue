@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.inline {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+}
+
+#priceBox {
+    width: 100%;
+}
+
+
+
+#Search {
+    width: 125px;
+    height: 75px;
+    background-color: #548CFF;
+    border-style: none;
+    color: #ffff;
+    border-radius: 15px;
+    font-size: 25px;
+}
+#Search:hover {
+    cursor: pointer;
+}
+
+#Placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin: auto;
+    height: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+}

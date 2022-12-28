@@ -1,0 +1,173 @@
+{
+    "cars": [{
+            "name": "Alpha",
+            "id": 1,
+            "price": 45600,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "compact",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "BriosoR/A",
+            "id": 2,
+            "price": 24000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 2,
+            "carType": "compact",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "Brioso300",
+            "id": 3,
+            "price": 40800,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 2,
+            "carType": "compact",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "ISSI_Classic",
+            "id": 4,
+            "price": 21000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "compact",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "ISSI",
+            "id": 5,
+            "price": 18000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "compact",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "Kanjo",
+            "id": 6,
+            "price": 36000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "compact",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "Panto",
+            "id": 7,
+            "price": 9000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeed(Upgraded)": 4555,
+            "Occupacy": 2,
+            "carType": "compact",
+            "speedLevel": "slow"
+        },
+        {
+            "name": "Rhapsody",
+            "id": 8,
+            "price": 90000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 2,
+            "carType": "compact",
+            "speedLevel": "medium"
+        },
+        {
+            "name": "Weevle",
+            "id": 9,
+            "price": 36000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 2,
+            "carType": "compact",
+            "speedLevel": "medium"
+        },
+        {
+            "name": "Cognoscenti Cabrio",
+            "id": 10,
+            "price": 55200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "coupe",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "F620",
+            "id": 11,
+            "price": 55200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "coupe",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "Oracle XS",
+            "id": 12,
+            "price": 55200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "coupe",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "Windsor Droptop",
+            "id": 13,
+            "price": 55200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "coupe",
+            "speedLevel": "fast"
+        },
+        {
+            "name": "Zion Classic",
+            "id": 14,
+            "price": 55200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "coupe",
+            "speedLevel": "fast"
+        }
+
+
+    
+]}
