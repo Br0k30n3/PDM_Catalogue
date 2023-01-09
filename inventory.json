@@ -9,7 +9,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "compact",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 13680
         },
         {
             "name": "BriosoR/A",
@@ -21,7 +22,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 2,
             "carType": "compact",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 7200
         },
         {
             "name": "Brioso300",
@@ -33,7 +35,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 2,
             "carType": "compact",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 12240
         },
         {
             "name": "ISSI_Classic",
@@ -45,7 +48,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "compact",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 6300
         },
         {
             "name": "ISSI",
@@ -57,7 +61,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "compact",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 5400
         },
         {
             "name": "Kanjo",
@@ -69,7 +74,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "compact",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 10800
         },
         {
             "name": "Panto",
@@ -81,7 +87,8 @@
             "maxSpeed(Upgraded)": 4555,
             "Occupacy": 2,
             "carType": "compact",
-            "speedLevel": "slow"
+            "speedLevel": "slow",
+            "Finance": 2700
         },
         {
             "name": "Rhapsody",
@@ -93,7 +100,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 2,
             "carType": "compact",
-            "speedLevel": "medium"
+            "speedLevel": "medium",
+            "Finance": 27000
         },
         {
             "name": "Weevle",
@@ -105,7 +113,8 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 2,
             "carType": "compact",
-            "speedLevel": "medium"
+            "speedLevel": "medium",
+            "Finance": 10800
         },
         {
             "name": "Cognoscenti Cabrio",
@@ -117,55 +126,255 @@
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 16560
         },
         {
             "name": "F620",
             "id": 11,
-            "price": 55200,
+            "price": 45600,
             "maxSpeed": 1234,
             "uphillSpeed": 1000,
             "downhillSpeed": 1233,
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 13680
         },
         {
             "name": "Oracle XS",
             "id": 12,
-            "price": 55200,
+            "price": 26400,
             "maxSpeed": 1234,
             "uphillSpeed": 1000,
             "downhillSpeed": 1233,
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 7920
         },
         {
             "name": "Windsor Droptop",
             "id": 13,
-            "price": 55200,
+            "price": 420000,
             "maxSpeed": 1234,
             "uphillSpeed": 1000,
             "downhillSpeed": 1233,
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 126000
         },
         {
             "name": "Zion Classic",
             "id": 14,
-            "price": 55200,
+            "price": 24600,
             "maxSpeed": 1234,
             "uphillSpeed": 1000,
             "downhillSpeed": 1233,
             "maxSpeedUpgraded": 4555,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast"
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Emperor",
+            "id": 15,
+            "price": 13400,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Glendale",
+            "id": 16,
+            "price": 17400,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Intruder",
+            "id": 17,
+            "price": 13200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Premier",
+            "id": 18,
+            "price": 19200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Schafter",
+            "id": 19,
+            "price": 38400,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Super Diamond",
+            "id": 20,
+            "price": 90000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Cognosceti",
+            "id": 21,
+            "price": 78000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Cinquemila",
+            "id": 22,
+            "price": 72000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Revolter",
+            "id": 23,
+            "price": 42000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "V-STR",
+            "id": 24,
+            "price": 46800,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Tailgater S",
+            "id": 25,
+            "price": 90000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Cypher",
+            "id": 26,
+            "price": 186000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Cypher",
+            "id": 26,
+            "price": 186000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Primo Custom",
+            "id": 27,
+            "price": 600000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
+        },
+        {
+            "name": "Washington",
+            "id": 28,
+            "price": 186000,
+            "maxSpeed": 1234,
+            "uphillSpeed": 1000,
+            "downhillSpeed": 1233,
+            "maxSpeedUpgraded": 4555,
+            "occupacy": 4,
+            "carType": "sedan",
+            "speedLevel": "fast",
+            "Finance": 7380
         }
 
 

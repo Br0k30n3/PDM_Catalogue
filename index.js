@@ -80,7 +80,7 @@ $(function () {
                 if ((carType == data.cars[i].carType) || (carType == "any")) {
                     if ((speedLevel == data.cars[i].speedLevel) || (speedLevel == "any")) {
                         if ((occupacy == data.cars[i].occupacy) || (occupacy == "any")) {
-                            if ((data.cars[i].price >= minPrice && data.cars[i].price <= maxPrice)) {
+                            if ((data.cars[i].price || data.cars[i].Finance >= minPrice && data.cars[i].price || data.cars[i].Finance <= maxPrice)) {
 
 
 
