@@ -28,14 +28,16 @@
 
     <div class="inline">
         <div class="right-panel">
-
+            
         </div>
         <div class="main-panel">
-        <div>
-            <h1 id="hero">Find a Vehicle!</h1>
-            <h2>Here at Premium Deluxe Motorsport we value our customers' time and happiness, which is why we've decided to develop the Search Idiosyncracies for Marketing Purposes database, also known as the S.I.M.P database. S.I.M.P uses the following fields to determine the perfect vehicle for you at the best price. From Bicycles to Supers, we have something for everyone!</h2>
+        <div class="hero-section">
+            <div id="hero-text">
+                <h1 id="hero">Find a Vehicle!</h1>
+                <h1>Here at Premium Deluxe Motorsport we value our customers' time and happiness, which is why we've decided to develop the Search Idiosyncracies for Marketing Purposes database, also known as the S.I.M.P database. S.I.M.P uses the following fields to determine the perfect vehicle for you at the best price. From Bicycles to Supers, we have something for everyone!</h1>
+            </div>
         </div>
-        <h3> Type: </h3>
+        <h2 class="title"> Type: </h2>
         <select name="carType" id="carType">
             <option value="any" selected>Any</option>
             <option value="compact">Compact</option>
@@ -50,7 +52,7 @@
             <option value="suv">SUV</option>
             <option value="van">Van</option>
         </select>
-        <h3> Speed Level: </h3>
+        <h2 class="title"> Speed Level: </h2>
         <select name="speedLevel" id="speedLevel">
             <option value="any" selected>Any</option>
             <option value="slow">Slow</option>
@@ -58,7 +60,7 @@
             <option value="fast">Fast</option>
             <option value="xtreme">Xtreme</option>
         </select>
-        <h3> Occupacy: </h3>
+        <h2 class="title"> Occupacy: </h2>
         <select name="occupacy" id="occupacy">
             <option value="any" selected>Any</option>
             <option value="1">1</option>
@@ -68,7 +70,7 @@
         </select>
         <div id = "priceBox">
             <p class="box">
-                <h3>Price Range</h3>
+                <h2 class="title">Price Range</h2>
                 <input type="text" id="amount" readonly class="goldSliderText">
             </p>
             <div id="slider-range"></div>
