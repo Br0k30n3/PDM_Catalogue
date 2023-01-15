@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     background-color: rgba(255, 240, 220, 0.25);
+    max-width: 1920px;
 }
 
 .inline {
