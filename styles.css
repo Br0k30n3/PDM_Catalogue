@@ -34,17 +34,24 @@ body {
 #priceBox {
     width: 100%;
 }
-
-.main-panel {
-    width: 80%;
-}
-
 .right-panel, 
 .left-panel {
-    width: 10%;
-    height: 100%;
+    width: 5%;
+    height: 50vh;
+    max-height: 1920px;
     display: flex;
     justify-content: center;
+    
+}
+
+.right-panel {
+    background: #0026d4;
+    border-radius: 50% 0 0 75%;
+}
+
+.left-panel {
+    background: #db2320;
+    border-radius: 0 50% 75% 0;
 }
 
 .header-wrapper {
@@ -64,7 +71,7 @@ body {
     padding: 15px 0;
     background-color: rgba(255, 240, 220, 0.75);
     border-style: none;
-    border-radius: 5%;
+    border-radius: 5px 5px 0 0;
 }
 
 #heading {
@@ -83,6 +90,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    background-color: #fcfdff;
 }
 
 #hero {
@@ -100,12 +109,13 @@ body {
     align-items: center;
     background-image: url("/Images/PDM_OPEN.png");
     background-position: bottom center;
-    padding: 15px;
+    padding: 15px 0;
     padding-right: 0;
     height: 600px;
     border-style: none;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     overflow: hidden;
+    width: 100%;
 }
 
 #hero-text {
@@ -119,7 +129,32 @@ body {
     padding: 15px;
 }
 
+.ui-slider .ui-slider-range {
+    background: repeating-linear-gradient(
+		to bottom,
+        #0026d4 0px,
+        #fcfdff 10px,
+        #db2320 15px,
+        #db2320 20px
+	  );
+}
 
+.ui-button:hover, .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-focus {
+    background: #bdc1d4;
+    border-color: #0026d4;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+    background: #bdc1d4;
+    border-color: #0026d4;
+}
 
 #Search {
     width: 125px;
@@ -142,4 +177,37 @@ body {
     height: 75%;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+
+.card {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.price-list {
+    list-style: none;
+    list-style-type: none;
+}
+.price-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

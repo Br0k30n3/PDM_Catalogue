@@ -54,7 +54,7 @@ $(function () {
     $("#slider-range").slider({
         range: true,
         min: 1500,
-        max: 18000000,
+        max: 1080000
         values: [15, 180],
         slide: function (event, ui) {
             $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
@@ -84,8 +84,7 @@ $(function () {
 
 
 
-                                output += "<h1>" + data.cars[i].name + "</h1>" + "<h2><li>" + "$" + data.cars[i].price + "</li></h2>" + "<p>" + data.cars[i].speedLevel + "</p>" + "<p>" + data.cars[i].maxSpeed + "</p>";
-                                console.log(output)
+                                output += "<div class='card'>" + "<h1>" + data.cars[i].name + "</h1>" + "<h2 class='pricing'><div class='price-section'>Purchase Price<li class='price-list'>" + "$" + data.cars[i].price + "</li></div><div class='price-section'> Finance Price<li class='price-list'>"+ "$" + data.cars[i].Finance + "</li></div></h2>" + "<h2>Speed Level</h2><p>" + data.cars[i].speedLevel + "</p>" + "<h2>Max Speed</h2><p>" + data.cars[i].maxSpeed + "</p>" + "</div>";
                             }
                         }
                     }
