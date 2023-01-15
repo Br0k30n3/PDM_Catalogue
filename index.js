@@ -57,11 +57,15 @@ $(function () {
         max: 5000000,
         values: [15, 180],
         slide: function (event, ui) {
-            $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+            $("#amount").val("$" + ui.values[0].toLocaleString('en-us') + " - $" + ui.values[1].toLocaleString('en-us'));
         }
     });
 
-    $("#amount").val(" $" + $(" #slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+    var minPriceString = $(" #slider-range").slider("values", 0).toLocaleString('en-us');
+
+    var maxPriceString = $("#slider-range").slider("values", 1).toLocaleString('en-us');
+
+    $("#amount").val(" $" + minPriceString + " - $" + maxPriceString);
 });
 
 
