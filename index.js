@@ -84,11 +84,13 @@ $(function () {
                 if ((carType == data.cars[i].carType) || (carType == "any")) {
                     if ((speedLevel == data.cars[i].speedLevel) || (speedLevel == "any")) {
                         if ((occupacy == data.cars[i].occupacy) || (occupacy == "any")) {
-                            if ((data.cars[i].price || data.cars[i].Finance >= minPrice && data.cars[i].price || data.cars[i].Finance <= maxPrice)) {
+                            if ((data.cars[i].price >= minPrice && data.cars[i].price <= maxPrice)) {
 
 
 
-                                output += "<div class='card'>" + "<h1>" + data.cars[i].name + "</h1>" + "<h2 class='pricing'><div class='price-section'>Purchase Price<li class='price-list'>" + "$" + data.cars[i].price.toLocaleString('en-us') + "</li></div><div class='price-section'> Finance Price<li class='price-list'>"+ "$" + data.cars[i].Finance.toLocaleString('en-us') + "</li></div></h2>" + "<h2>Speed Level</h2><p>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</p>" + "<h2>Max Speed</h2><p>" + data.cars[i].maxSpeed.toLocaleString('en-us') + "</p>" + "</div>";
+                                output += "<div class='card'>" + "<h1>" + data.cars[i].name + "</h1>" + "<h2>Car Type: " + data.cars[i].carType + "</h2>" + "<h2 class='pricing'><div class='price-section'>Purchase Price<li class='price-list'>" + "$" + data.cars[i].price.toLocaleString('en-us') + "</li></div>" + "<div class='price-section'> Finance Price<li class='price-list'>"+ "$" + data.cars[i].Finance.toLocaleString('en-us') + "</li></div></h2>" + "<h2>Speed Level</h2><p>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</p>" + "<h2>Max Speed</h2><p>" + data.cars[i].maxSpeed.toLocaleString('en-us') + "</p>" + "<h2>Max Occupacy</h2><p>"+ data.cars[i].occupacy + "</div>";
+                            } else if (data.cars[i].Finance >= minPrice && data.cars[i].Finance <= maxPrice){
+                                output += "<div class='card'>" + "<h1>" + data.cars[i].name + "</h1>" + "<h2>Car Type: " + data.cars[i].carType + "</h2>" + "<h2 class='pricing' id='finance'><div class='price-section' > Finance Price<li class='price-list'>"+ "$" + data.cars[i].Finance.toLocaleString('en-us') + "</li></div></h2>" + "<h2>Speed Level</h2><p>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</p>" + "<h2>Max Speed</h2><p>" + data.cars[i].maxSpeed.toLocaleString('en-us') + "</p>" + "<h2>Max Occupacy</h2><p>"+ data.cars[i].occupacy +"</div>";
                             }
                         }
                     }

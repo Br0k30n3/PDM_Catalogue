@@ -201,7 +201,7 @@ ul {
 .pricing {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 30%;
 }
@@ -209,6 +209,12 @@ ul {
 .price-list {
     list-style: none;
     list-style-type: none;
+}
+#finance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .price-section {
     display: flex;
