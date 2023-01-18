@@ -31,58 +31,111 @@
             
         </div>
         <div class="main-panel">
-        <div class="hero-section">
+        <!-- <div class="hero-section">
             <div id="hero-text">
                 <h1 id="hero">Find a Vehicle!</h1>
                 <h1>Here at Premium Deluxe Motorsport we value our customers' time and happiness</h1>
             </div>
-        </div>
-        <h2 class="title"> Type: </h2>
-        <select name="carType" id="carType">
-            <option value="any" selected>Any</option>
-            <option value="compact">Compact</option>
-            <option value="coupe">Coupe</option>
-            <option value="jobVehicle">Job Vehicle</option>
-            <option value="sedan">Sedan</option>
-            <option value="sports">Sports Car</option>
-            <option value="sports-classic">Sports(Classic)</option>
-            <option value="super">Super Car</option>
-            <option value="muscle">Muscle Car</option>
-            <option value="offroadandbike">Off-Road/Bike</option>
-            <option value="suv">SUV</option>
-            <option value="van">Van</option>
-        </select>
-        <h2 class="title"> Speed Level: </h2>
-        <select name="speedLevel" id="speedLevel">
-            <option value="any" selected>Any</option>
-            <option value="slow">Slow</option>
-            <option value="medium">Medium</option>
-            <option value="fast">Fast</option>
-            <option value="xtreme">Xtreme</option>
-        </select>
-        <h2 class="title"> Occupacy: </h2>
-        <select name="occupacy" id="occupacy">
-            <option value="any" selected>Any</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-        <div id = "priceBox">
+        </div> -->
+        <div id="categories">
+            <h2 class="title"> Type: </h2>
+            <div id="Type">
+                <label for="compact">Compact</label>
+                <input name="cars"type="checkbox" value="compact" class="carCheckbox">
+                <label for="coupe">Coupe</label>
+                <input name="cars"type="checkbox" value="coupe" class="carCheckbox">
+                <label for="jobVehicle">Job Vehicle</label>
+                <input name="cars"type="checkbox" value="jobVehicle" class="carCheckbox">
+                <label for="sedan">Sedan</label>
+                <input name="cars"type="checkbox" value="sedan" class="carCheckbox">
+                <label for="sports">Sports Car</label>
+                <input name="cars"type="checkbox" value="sports" class="carCheckbox">
+                <label for="sports-classic">Sports(Classic)</label>
+                <input name="cars"type="checkbox" value="sports-classic" class="carCheckbox">
+                <label for="super">Super Car</label>
+                <input name="cars"type="checkbox" value="super" class="carCheckbox">
+                <label for="muscle">Muscle Car</label>
+                <input name="cars"type="checkbox" value="muscle" class="carCheckbox">
+                <label for="offroadandbike">Off-Road/Bike</label>
+                <input name="cars"type="checkbox" value="offroadandbike" class="carCheckbox">
+                <label for="suv">SUV</label>
+                <input name="cars"type="checkbox" value="suv" class="carCheckbox">
+                <label for="van">Van</label>
+                <input name="cars"type="checkbox" value="van" class="carCheckbox">
+            </div>
+            <h2 class="title"> Speed Level: </h2>
+            <div id="speedType">
+                <div id="slider-range"></div>
+                <label for="slow">Slow</label>
+                <input type="checkbox" value="slow">
+                <label for="medium">Medium</label>
+                <input type="checkbox" value="medium">
+                <label for="fast">Fast</label>
+                <input type="checkbox" value="fast">
+                <label for="xtreme">Extreme</label>
+                <input type="checkbox" value="xtreme">
+            </div>
+            <h2 class="title"> Occupacy: </h2>
+            <div id="occupacy-container">
+                <label for="1">1</label>
+                <input type="checkbox" value="1">
+                <label for="2">2</label>
+                <input type="checkbox" value="2">
+                <label for="3">3</label>
+                <input type="checkbox" value="3">
+                <label for="4">4</label>
+                <input type="checkbox" value="4">
+                <label for="5">5</label>
+                <input type="checkbox" value="5">
+                <label for="6">6</label>
+                <input type="checkbox" value="6">
+            </div>
+            </div>
+            
+        
+        <!-- <div id = "priceBox">
             <p class="box">
-                <h2 class="title">Adjust the price to fit your budget!</h2>
-                <input type="text" id="amount" readonly class="goldSliderText">
-            </p>
-            <div id="slider-range"></div>
-        </div>
-        <br><br>
-        <button id="Search">Search</button>
-        </div>
-        <div class="left-panel">
-
+                <div class="price-container">
+                     <div class="priceInput"> 
+                        <h2 class="priceTitle">Maximum Price:</h2>
+                        <input type="text" id="lowAmount" class="goldSliderText" value="250000" placeholder="Enter Budget">
+                    </div>
+                    <div class="priceInput" id="medium-low"> 
+                        <h2 class="priceTitle">Maximum Price:</h2>
+                        <input type="text" id="mediumLowAmount" class="goldSliderText" value="500000" placeholder="Enter Budget">
+                    </div>
+                    <div class="priceInput" id="medium"> 
+                        <h2 class="priceTitle">Maximum Price:</h2>
+                        <input type="text" id="mediumAmount" class="goldSliderText" value="1000000" placeholder="Enter Budget">
+                    </div>
+                    <div class="priceInput" id="max"> 
+                        <h2 class="priceTitle">Maximum Price:</h2>
+                        <input type="text" id="maxAmount" class="goldSliderText" value="5000000" placeholder="Enter Budget">
+                    </div> -->
+                
+            <!-- </p>  -->
+            
+        
+        <div id="budget-search">
+            <div id="priceBox">
+                <p class="box">
+                    <div class="price-container">
+                        <div class="priceInput">
+                            <h2 class="priceTitle">Maximum Price:</h2>
+                            <input type="text" name="maxPrice" class="goldSilverText" placeholder="Enter Budget" id="maxAmount" >
+                            <label for="purchase">Cash</label>
+                            <input type="checkbox"name="paymentType" id="purchase" value="purchase">
+                            <label for="finance">Finance</label>
+                            <input type="checkbox"name="paymentType" id="finance" value="finance">
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <br><br>
+            <button id="Search">Search</button>
         </div> 
+    </div>
+    <div class="left-panel"></div>
     </div>
     
     

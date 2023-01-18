@@ -32,9 +32,7 @@ body {
     border: 1px solid #0026d4;
 }
 
-#priceBox {
-    width: 100%;
-}
+
 .right-panel, 
 .left-panel {
     width: 5%;
@@ -88,10 +86,18 @@ body {
 
 .main-panel {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #fcfdff;
+    padding: 15px;
+}
+#categories {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
     background-color: #fcfdff;
     padding: 15px;
 }
@@ -103,8 +109,11 @@ body {
 
 .title {
     font-weight: 800;
+    margin: 10px 0;
+    font-size: 36px;
 }
 
+/* Obsolete Code
 .hero-section {
     display: flex;
     justify-content: flex-end;
@@ -156,7 +165,7 @@ body {
 .ui-button:focus {
     background: #bdc1d4;
     border-color: #0026d4;
-}
+} */
 
 #Search {
     width: 125px;
@@ -201,7 +210,7 @@ ul {
 .pricing {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 30%;
 }
@@ -221,4 +230,70 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 50%; */
+}
+.priceInput {
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.priceTitle {
+    margin: 10px 5px;
+    font-size: 42px;
+}
+.divider {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.divider p {
+    margin: 0;
+    font-size: 24px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+#low,#medium-low,#medium,#max {
+    display: flex;
+}
+.budget-select {
+    flex-direction: column;
+
+}
+#Type {
+    flex-wrap: wrap;
+    width: 50%;
+}
+#speedType {
+    display: flex;
+    justify-content: center;
+}
+#budget-search {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type='radio'] {
+    margin: 5px 0;
+}
+input[type='checkbox'] {
+    margin-left: 3px;
+    margin-right: 10px;
+}
+label {
+    margin: 5px 0;
+    font-size: 24px;
 }
