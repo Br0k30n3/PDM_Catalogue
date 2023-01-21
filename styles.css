@@ -36,7 +36,7 @@ body {
 .right-panel, 
 .left-panel {
     width: 5%;
-    height: 50vh;
+    height: 55vh;
     max-height: 1920px;
     display: flex;
     justify-content: center;
@@ -92,6 +92,7 @@ body {
     width: 80%;
     background-color: #fcfdff;
     padding: 15px;
+    height: 55vh;
 }
 #categories {
     display: flex;
@@ -238,7 +239,7 @@ ul {
     align-items: center;
     /* width: 50%; */
 }
-.priceInput {
+#price {
     margin: 5px;
     justify-content: center;
     display: flex;
