@@ -101,6 +101,7 @@ body {
     align-items: center;
     background-color: #fcfdff;
     padding: 15px;
+    opacity: 0.75;
 }
 
 #hero {
