@@ -385,7 +385,7 @@
             "downhillSpeed": 114,
             "maxSpeedUpgraded": 153,
             "occupacy": 4,
-            "carType": "jobVehicle",
+            "carType": "job Vehicle",
             "speedLevel": "slow",
             "Finance": 4000
         },
@@ -398,7 +398,7 @@
             "downhillSpeed": 94,
             "maxSpeedUpgraded": 143,
             "occupacy": 4,
-            "carType": "jobVehicle",
+            "carType": "job Vehicle",
             "speedLevel": "slow",
             "Finance": 6000
         },
@@ -411,7 +411,7 @@
             "downhillSpeed": 122,
             "maxSpeedUpgraded": 159,
             "occupacy": 4,
-            "carType": "jobVehicle",
+            "carType": "job Vehicle",
             "speedLevel": "medium",
             "Finance": 6000
         }
