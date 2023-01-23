@@ -405,7 +405,7 @@
         {
             "name": "Taxi Cab",
             "id": 31,
-            "price": 18000,
+            "price": 6000,
             "maxSpeed": 1234,
             "uphillSpeed": 101,
             "downhillSpeed": 122,
@@ -413,7 +413,7 @@
             "occupacy": 4,
             "carType": "job Vehicle",
             "speedLevel": "medium",
-            "Finance": 6000
+            "Finance": 2000
         }
 
 
