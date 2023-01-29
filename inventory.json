@@ -9,8 +9,9 @@
             "maxSpeedUpgraded": 152,
             "occupacy": 4,
             "carType": "compact",
-            "speedLevel": "fast",
-            "Finance": 13680
+            "speedLevel": "medium",
+            "Finance": 15200,
+            "carImg": "/Images/compacts/ALPHA.png"
         },
         {
             "name": "BriosoR/A",
@@ -22,24 +23,26 @@
             "maxSpeedUpgraded": 185,
             "occupacy": 2,
             "carType": "compact",
-            "speedLevel": "fast",
-            "Finance": 7200
+            "speedLevel": "xtreme",
+            "Finance": 8000,
+            "carImg": "/Images/compacts/BRIOSO_300.png"
         },
         {
             "name": "Brioso300",
             "id": 3,
             "price": 40800,
-            "maxSpeed": 107,
+            "maxSpeed": 160,
             "uphillSpeed": 107,
             "downhillSpeed": 120,
             "maxSpeedUpgraded": 160,
             "occupacy": 2,
             "carType": "compact",
             "speedLevel": "fast",
-            "Finance": 12240
+            "Finance": 13600,
+            "carImg": "/Images/compacts/BRIOSO.png"
         },
         {
-            "name": "ISSI_Classic",
+            "name": "ISSI Classic",
             "id": 4,
             "price": 21000,
             "maxSpeed": 123,
@@ -49,7 +52,8 @@
             "occupacy": 4,
             "carType": "compact",
             "speedLevel": "fast",
-            "Finance": 6300
+            "Finance": 7200,
+            "carImg": "/Images/compacts/ISSI_CLASSIC.png"
         },
         {
             "name": "ISSI",
@@ -61,8 +65,9 @@
             "maxSpeedUpgraded": 160,
             "occupacy": 4,
             "carType": "compact",
-            "speedLevel": "fast",
-            "Finance": 5400
+            "speedLevel": "medium",
+            "Finance": 6000,
+            "carImg": "/Images/compacts/ISSI.png"
         },
         {
             "name": "Kanjo",
@@ -75,7 +80,8 @@
             "occupacy": 4,
             "carType": "compact",
             "speedLevel": "fast",
-            "Finance": 10800
+            "Finance": 12000,
+            "carImg": "/Images/compacts/KANJO.png"
         },
         {
             "name": "Panto",
@@ -84,24 +90,26 @@
             "maxSpeed": 1234,
             "uphillSpeed": 110,
             "downhillSpeed": 125,
-            "maxSpeed(Upgraded)": 156,
+            "maxSpeedUpgraded": 156,
             "occupacy": 2,
             "carType": "compact",
-            "speedLevel": "slow",
-            "Finance": 2700
+            "speedLevel": "medium",
+            "Finance": 2700,
+            "carImg": "/Images/compacts/PANTO.png"
         },
         {
             "name": "Rhapsody",
             "id": 8,
             "price": 90000,
-            "maxSpeed": 103,
-            "uphillSpeed": 125,
-            "downhillSpeed": 165,
-            "maxSpeedUpgraded": 4555,
+            "maxSpeed": 165,
+            "uphillSpeed": 103,
+            "downhillSpeed": 125,
+            "maxSpeedUpgraded": 165,
             "occupacy": 2,
             "carType": "compact",
-            "speedLevel": "medium",
-            "Finance": 27000
+            "speedLevel": "fast",
+            "Finance": 30000,
+            "carImg": "/Images/compacts/RHAPSODY.png"
         },
         {
             "name": "Weevle",
@@ -114,7 +122,8 @@
             "occupacy": 2,
             "carType": "compact",
             "speedLevel": "medium",
-            "Finance": 10800
+            "Finance": 10800,
+            "carImg": "/Images/compacts/WEEVLE.png"
         },
         {
             "name": "Cognoscenti Cabrio",
@@ -126,8 +135,9 @@
             "maxSpeedUpgraded": 187,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast",
-            "Finance": 16560
+            "speedLevel": "xtreme",
+            "Finance": 16560,
+            "carImg": "/Images/coupes/Cognoscenti_Cabrio.png"
         },
         {
             "name": "F620",
@@ -139,8 +149,9 @@
             "maxSpeedUpgraded": 180,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast",
-            "Finance": 13680
+            "speedLevel": "xtreme",
+            "Finance": 13680,
+            "carImg": "/Images/coupes/F620.png"
         },
         {
             "name": "Oracle XS",
@@ -153,7 +164,8 @@
             "occupacy": 4,
             "carType": "coupe",
             "speedLevel": "fast",
-            "Finance": 7920
+            "Finance": 7920,
+            "carImg": "/Images/coupes/ORACLE_XS.png"
         },
         {
             "name": "Windsor Droptop",
@@ -166,7 +178,8 @@
             "occupacy": 4,
             "carType": "coupe",
             "speedLevel": "fast",
-            "Finance": 126000
+            "Finance": 126000,
+            "carImg": "/Images/coupes/WINDSOR.png"
         },
         {
             "name": "Windsor",
@@ -178,8 +191,9 @@
             "maxSpeedUpgraded": 180,
             "occupacy": 4,
             "carType": "coupe",
-            "speedLevel": "fast",
-            "Finance": 66000
+            "speedLevel": "xtreme",
+            "Finance": 66000,
+            "carImg": "/Images/coupes/WINDSOR.png"
         },
         {
             "name": "Zion Classic",
@@ -192,7 +206,8 @@
             "occupacy": 4,
             "carType": "coupe",
             "speedLevel": "fast",
-            "Finance": 7380
+            "Finance": 7380,
+            "carImg": "/Images/coupes/ZION_CLASSIC.png"
         },
         {
             "name": "Emperor",
@@ -204,8 +219,9 @@
             "maxSpeedUpgraded": 151,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "fast",
-            "Finance": 4020
+            "speedLevel": "medium",
+            "Finance": 4020,
+            "carImg": "/Images/sedans/EMPEROR.png"
         },
         {
             "name": "Glendale",
@@ -217,8 +233,9 @@
             "maxSpeedUpgraded": 151,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "fast",
-            "Finance": 5220
+            "speedLevel": "medium",
+            "Finance": 5220,
+            "carImg": "/Images/sedans/GLENDALE.png"
         },
         {
             "name": "Intruder",
@@ -231,7 +248,8 @@
             "occupacy": 4,
             "carType": "sedan",
             "speedLevel": "fast",
-            "Finance": 3960
+            "Finance": 3960,
+            "carImg": "/Images/sedans/INTRUDER.png"
         },
         {
             "name": "Premier",
@@ -243,8 +261,9 @@
             "maxSpeedUpgraded": 155,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "fast",
-            "Finance": 5760
+            "speedLevel": "medium",
+            "Finance": 5760,
+            "carImg": "/Images/sedans/PREMIER.png"
         },
         {
             "name": "Schafter",
@@ -256,8 +275,9 @@
             "maxSpeedUpgraded": 155,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "fast",
-            "Finance": 11520
+            "speedLevel": "medium",
+            "Finance": 11520,
+            "carImg": "/Images/sedans/SCHAFTER.png"
         },
         {
             "name": "Super Diamond",
@@ -269,8 +289,9 @@
             "maxSpeedUpgraded": 167,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "medium",
-            "Finance": 27000
+            "speedLevel": "fast",
+            "Finance": 27000,
+            "carImg": "/Images/sedans/SUPER-DIAMOND.png"
         },
         {
             "name": "Cognosceti",
@@ -283,7 +304,8 @@
             "occupacy": 4,
             "carType": "sedan",
             "speedLevel": "fast",
-            "Finance": 23400
+            "Finance": 23400,
+            "carImg": "/Images/sedans/COGNOSCETI.png"
         },
         {
             "name": "Cinquemila",
@@ -295,8 +317,9 @@
             "maxSpeedUpgraded": 130,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "fast",
-            "Finance": 21600
+            "speedLevel": "slow",
+            "Finance": 21600,
+            "carImg": "/Images/sedans/CINQUEMILA.png"
         },
         {
             "name": "Revolter",
@@ -308,8 +331,9 @@
             "maxSpeedUpgraded": 192,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "slow",
-            "Finance": 14000
+            "speedLevel": "xtreme",
+            "Finance": 14000,
+            "carImg": "/Images/sedans/REVOLTER.png"
         },
         {
             "name": "V-STR",
@@ -322,7 +346,8 @@
             "occupacy": 4,
             "carType": "sedan",
             "speedLevel": "fast",
-            "Finance": 15600
+            "Finance": 15600,
+            "carImg": "/Images/sedans/V-STR.png"
         },
         {
             "name": "Tailgater S",
@@ -334,8 +359,9 @@
             "maxSpeedUpgraded": 149,
             "occupacy": 4,
             "carType": "sedan",
-            "speedLevel": "fast",
-            "Finance": 30000
+            "speedLevel": "medium",
+            "Finance": 30000,
+            "carImg": "/Images/sedans/TAILGATER_S.png"
         },
         {
             "name": "Cypher",
@@ -348,7 +374,8 @@
             "occupacy": 6,
             "carType": "sedan",
             "speedLevel": "medium",
-            "Finance": 62000
+            "Finance": 62000,
+            "carImg": "/Images/sedans/CYPHER.png"
         },
         {
             "name": "Primo Custom",
@@ -361,7 +388,8 @@
             "occupacy": 2,
             "carType": "sedan",
             "speedLevel": "fast",
-            "Finance": 180000
+            "Finance": 180000,
+            "carImg": "/Images/sedans/PRIMO_CUSTOM.png"
         },
         {
             "name": "Washington",
@@ -374,7 +402,8 @@
             "occupacy": 4,
             "carType": "sedan",
             "speedLevel": "fast",
-            "Finance": 108000
+            "Finance": 108000,
+            "carImg": "/Images/sedans/WASHINGTON.png"
         },
         {
             "name": "News Rumbo",
@@ -386,8 +415,9 @@
             "maxSpeedUpgraded": 153,
             "occupacy": 4,
             "carType": "job Vehicle",
-            "speedLevel": "slow",
-            "Finance": 4000
+            "speedLevel": "medium",
+            "Finance": 4000,
+            "carImg": "/Images/jobVehicles/ALPHA.png"
         },
         {
             "name": "Taco Van",
@@ -399,8 +429,9 @@
             "maxSpeedUpgraded": 143,
             "occupacy": 4,
             "carType": "job Vehicle",
-            "speedLevel": "slow",
-            "Finance": 6000
+            "speedLevel": "medium",
+            "Finance": 6000,
+            "carImg": "/Images/jobVehicles/ALPHA.png"
         },
         {
             "name": "Taxi Cab",
@@ -413,8 +444,739 @@
             "occupacy": 4,
             "carType": "job Vehicle",
             "speedLevel": "medium",
-            "Finance": 2000
+            "Finance": 2000,
+            "carImg": "/Images/jobVehicles/ALPHA.png"
+        },
+        {
+            "name": "Blade",
+            "id": 32,
+            "price": 25200,
+            "maxSpeed": 1234,
+            "uphillSpeed": 129,
+            "downhillSpeed": 142,
+            "maxSpeedUpgraded": 179,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "fast",
+            "Finance": 8400,
+            "carImg": "/Images/muscles/BLADE.png"
+        },
+        {
+            "name": "Buccaneer",
+            "id": 33,
+            "price": 23400,
+            "maxSpeed": 159,
+            "uphillSpeed": 122,
+            "downhillSpeed": 149,
+            "maxSpeedUpgraded": 159,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 7800,
+            "carImg": "/Images/muscles/BUCCANEER.png"
+        },
+        {
+            "name": "Buccaneer Rider",
+            "id": 34,
+            "price": 24000,
+            "maxSpeed": 159,
+            "uphillSpeed": 115,
+            "downhillSpeed": 130,
+            "maxSpeedUpgraded": 159,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 8000,
+            "carImg": "/Images/muscles/BUCCANEER_RIDER.png"
+        },
+        {
+            "name": "Chino",
+            "id": 35,
+            "price": 24000,
+            "maxSpeed": 159,
+            "uphillSpeed": 97,
+            "downhillSpeed": 130,
+            "maxSpeedUpgraded": 160,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 8000,
+            "carImg": "/Images/muscles/CHINO.png"
+        },
+        {
+            "name": "Chino Luxury",
+            "id": 36,
+            "price": 42000,
+            "maxSpeed": 159,
+            "uphillSpeed": 110,
+            "downhillSpeed": 136,
+            "maxSpeedUpgraded": 159,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 14000,
+            "carImg": "/Images/muscles/CHINO_LUXURY.png"
+        },
+        {
+            "name": "Deviant",
+            "id": 37,
+            "price": 72000,
+            "maxSpeed": 160,
+            "uphillSpeed": 100,
+            "downhillSpeed": 130,
+            "maxSpeedUpgraded": 160,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 23760,
+            "carImg": "/Images/muscles/DEVIANT.png"
+        },
+        {
+            "name": "Dominator ASP",
+            "id": 38,
+            "price": 198000,
+            "maxSpeed": 159,
+            "uphillSpeed": 130,
+            "downhillSpeed": 159,
+            "maxSpeedUpgraded": 179,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "fast",
+            "Finance": 66000,
+            "carImg": "/Images/muscles/DOMINATOR_ASP.png"
+        },
+        {
+            "name": "Dominator GTT",
+            "id": 40,
+            "price": 78000,
+            "maxSpeed": 159,
+            "uphillSpeed": 139,
+            "downhillSpeed": 147,
+            "maxSpeedUpgraded": 149,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 26000,
+            "carImg": "/Images/muscles/DOMINATOR_GTT.png"
+        },
+        {
+            "name": "Dominator GTX",
+            "id": 41,
+            "price": 93000,
+            "maxSpeed": 159,
+            "uphillSpeed": 128,
+            "downhillSpeed": 149,
+            "maxSpeedUpgraded": 160,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 31000,
+            "carImg": "/Images/muscles/DOMINATOR_GTX.png"
+        },
+        {
+            "name": "Dominator",
+            "id": 42,
+            "price": 42000,
+            "maxSpeed": 159,
+            "uphillSpeed": 120,
+            "downhillSpeed": 144,
+            "maxSpeedUpgraded": 149,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "slow",
+            "Finance": 14000,
+            "carImg": "/Images/muscles/DOMINATOR.png"
+        },
+        {
+            "name": "Tampa Drift",
+            "id": 43,
+            "price": 120000,
+            "maxSpeed": 159,
+            "uphillSpeed": 105,
+            "downhillSpeed": 120,
+            "maxSpeedUpgraded": 132,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "slow",
+            "Finance": 40000,
+            "carImg": "/Images/muscles/TAMPA_DRIFT.png"
+        },
+        {
+            "name": "Dukes",
+            "id": 44,
+            "price": 15000,
+            "maxSpeed": 159,
+            "uphillSpeed": 120,
+            "downhillSpeed": 141,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "fast",
+            "Finance": 5000,
+            "carImg": "/Images/muscles/DUKES.png"
+        },
+        {
+            "name": "Ellie",
+            "id": 45,
+            "price": 60000,
+            "maxSpeed": 159,
+            "uphillSpeed": 126,
+            "downhillSpeed": 145,
+            "maxSpeedUpgraded": 165,
+            "occupacy": 4,
+            "carType": "muscle",
+            "speedLevel": "medium",
+            "Finance": 20000,
+            "carImg": "/Images/muscles/ELLIE.png"
+        },
+        {
+            "name": "FRANKEN STRANGE(B-TYPE 2)",
+            "id": 46,
+            "price": 360000,
+            "maxSpeed": 159,
+            "uphillSpeed": 100,
+            "downhillSpeed": 110,
+            "maxSpeedUpgraded": 118,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "slow",
+            "Finance": 119990,
+            "carImg": "/Images/muscles/FRANKEN_STRANGE(B_TYPE2).png"
+        },
+        {
+            "name": "Gaunlet Classic",
+            "id": 47,
+            "price": 72000,
+            "maxSpeed": 175,
+            "uphillSpeed": 130,
+            "downhillSpeed": 160,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "fast",
+            "Finance": 24000,
+            "carImg": "/Images/muscles/GAUNLET_CLASSIC.png"
+        },
+        {
+            "name": "Gaunlet Hellfire",
+            "id": 48,
+            "price": 84000,
+            "maxSpeed": 183,
+            "uphillSpeed": 163,
+            "downhillSpeed": 160,
+            "maxSpeedUpgraded": 183,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "xtreme",
+            "Finance": 28000,
+            "carImg": "/Images/muscles/GAUNLET_HELLFIRE.png"
+        },
+        {
+            "name": "Gaunlet (Redwood)",
+            "id": 49,
+            "price": 60000,
+            "maxSpeed": 145,
+            "uphillSpeed": 110,
+            "downhillSpeed": 125,
+            "maxSpeedUpgraded": 145,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "slow",
+            "Finance": 24000,
+            "carImg": "/Images/muscles/GAUNLET_REDWOOD.png"
+        },
+        {
+            "name": "Gaunlet Classic (Custom)",
+            "id": 50,
+            "price": 186000,
+            "maxSpeed": 175,
+            "uphillSpeed": 144,
+            "downhillSpeed": 168,
+            "maxSpeedUpgraded": 181,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "xtreme",
+            "Finance": 62000,
+            "carImg": "/Images/muscles/GAUNLET_CLASSIC.png"
+        },
+        {
+            "name": "Gaunlet",
+            "id": 51,
+            "price": 48000,
+            "maxSpeed": 175,
+            "uphillSpeed": 120,
+            "downhillSpeed": 153,
+            "maxSpeedUpgraded": 165,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "fast",
+            "Finance": 16000,
+            "carImg": "/Images/muscles/GAUNLET_CLASSIC.png"
+        },
+        {
+            "name": "Hotknife",
+            "id": 52,
+            "price": 54000,
+            "maxSpeed": 152,
+            "uphillSpeed": 93,
+            "downhillSpeed": 119,
+            "maxSpeedUpgraded": 152,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "medium",
+            "Finance": 18000,
+            "carImg": "/Images/muscles/HOTKNIFE.png"
+        },
+        {
+            "name": "Phoenix",
+            "id": 53,
+            "price": 30000,
+            "maxSpeed": 160,
+            "uphillSpeed": 110,
+            "downhillSpeed": 129,
+            "maxSpeedUpgraded": 160,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "medium",
+            "Finance": 10000,
+            "carImg": "/Images/muscles/PHOENIX.png"
+        },
+        {
+            "name": "Picador",
+            "id": 54,
+            "price": 21600,
+            "maxSpeed": 175,
+            "uphillSpeed": 130,
+            "downhillSpeed": 160,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "fast",
+            "Finance": 7200,
+            "carImg": "/Images/muscles/PICADOR.png"
+        },
+        {
+            "name": "Rapid GT Classic",
+            "id": 55,
+            "price": 174000,
+            "maxSpeed": 175,
+            "uphillSpeed": 114,
+            "downhillSpeed": 130,
+            "maxSpeedUpgraded": 160,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "medium",
+            "Finance": 58000,
+            "carImg": "/Images/muscles/RAPID_GT_CLASSIC.png"
+        },
+        {
+            "name": "Rocket",
+            "id": 56,
+            "price": 240000,
+            "maxSpeed": 110,
+            "uphillSpeed": 95,
+            "downhillSpeed": 101,
+            "maxSpeedUpgraded": 110,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "slow",
+            "Finance": 7200,
+            "carImg": "/Images/muscles/ROCKET.png"
+        },
+        {
+            "name": "Ruiner",
+            "id": 57,
+            "price": 21000,
+            "maxSpeed": 112,
+            "uphillSpeed": 112,
+            "downhillSpeed": 145,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "fast",
+            "Finance": 7000,
+            "carImg": "/Images/muscles/RUINER.png"
+        },
+        {
+            "name": "Sabre GT",
+            "id": 58,
+            "price": 21000,
+            "maxSpeed": 112,
+            "uphillSpeed": 130,
+            "downhillSpeed": 147,
+            "maxSpeedUpgraded": 185,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "xtreme",
+            "Finance": 10000,
+            "carImg": "/Images/muscles/SABRE_GT.png"
+        },
+        {
+            "name": "Tampa",
+            "id": 59,
+            "price": 33000,
+            "maxSpeed": 180,
+            "uphillSpeed": 121,
+            "downhillSpeed": 145,
+            "maxSpeedUpgraded": 180,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "xtreme",
+            "Finance": 11000,
+            "carImg": "/Images/muscles/TAMPA.png"
+        },
+        {
+            "name": "Tornado Classic",
+            "id": 60,
+            "price": 54000,
+            "maxSpeed": 112,
+            "uphillSpeed": 86,
+            "downhillSpeed": 101,
+            "maxSpeedUpgraded": 110,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "slow",
+            "Finance": 18000,
+            "carImg": "/Images/muscles/TORNADO.png"
+        },
+        {
+            "name": "Vigero",
+            "id": 61,
+            "price": 19200,
+            "maxSpeed": 112,
+            "uphillSpeed": 112,
+            "downhillSpeed": 145,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "fast",
+            "Finance": 6400,
+            "carImg": "/Images/muscles/VIGERO.png"
+        },
+        {
+            "name": "Virgo",
+            "id": 62,
+            "price": 24000,
+            "maxSpeed": 112,
+            "uphillSpeed": 107,
+            "downhillSpeed": 127,
+            "maxSpeedUpgraded": 160,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "medium",
+            "Finance": 8000,
+            "carImg": "/Images/muscles/VIRGO.png"
+        },
+        {
+            "name": "Yosemite Drift",
+            "id": 63,
+            "price": 186000,
+            "maxSpeed": 112,
+            "uphillSpeed": 101,
+            "downhillSpeed": 110,
+            "maxSpeedUpgraded": 115,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "slow",
+            "Finance": 62000,
+            "carImg": "/Images/muscles/YOSEMITE_DRIFT.png"
+        },
+        {
+            "name": "Yosemite Rancher",
+            "id": 64,
+            "price": 186000,
+            "maxSpeed": 130,
+            "uphillSpeed": 78,
+            "downhillSpeed": 94,
+            "maxSpeedUpgraded": 130,
+            "occupacy": 4,
+            "carType": "muscle",    
+            "speedLevel": "slow",
+            "Finance": 62000,
+            "carImg": "/Images/muscles/YOSEMITE_RANCHER.png"
+        },
+        {
+            "name": "Akuma",
+            "id": 65,
+            "price": 7200,
+            "maxSpeed": 112,
+            "uphillSpeed": 80,
+            "downhillSpeed": 105,
+            "maxSpeedUpgraded": 133,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "slow",
+            "Finance": 2400,
+            "carImg": "/Images/off-road/AKUMA.png"
+        },
+        {
+            "name": "BMX",
+            "id": 66,
+            "price": 1500,
+            "maxSpeed": 0,
+            "uphillSpeed": 0,
+            "downhillSpeed": 0,
+            "maxSpeedUpgraded": "N/A",
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "slow",
+            "Finance": 500,
+            "carImg": "/Images/off-road/BMX.png"
+        },
+        {
+            "name": "Brawler",
+            "id": 67,
+            "price": 54000,
+            "maxSpeed": 170,
+            "uphillSpeed": 98,
+            "downhillSpeed": 120,
+            "maxSpeedUpgraded": 170,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "slow",
+            "Finance": 18000,
+            "carImg": "/Images/off-road/BRAWLER.png"
+        },
+        {
+            "name": "Caracara 4x4",
+            "id": 68,
+            "price": 252000,
+            "maxSpeed": 172,
+            "uphillSpeed": 90,
+            "downhillSpeed": 121,
+            "maxSpeedUpgraded": 172,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 84000,
+            "carImg": "/Images/off-road/CARACARA_4X4.png"
+        },
+        {
+            "name": "Contender",
+            "id": 69,
+            "price": 300000,
+            "maxSpeed": 175,
+            "uphillSpeed": 105,
+            "downhillSpeed": 125,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 99990,
+            "carImg": "/Images/off-road/CONTENDER.png"
+        },
+        {
+            "name": "Dubsta 6x6",
+            "id": 70,
+            "price": 180000,
+            "maxSpeed": 172,
+            "uphillSpeed": 90,
+            "downhillSpeed": 121,
+            "maxSpeedUpgraded": "Unavailable",
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "Unavailable",
+            "Finance": 59994,
+            "carImg": "/Images/off-road/DUBSTA.png"
+        },
+        {
+            "name": "Everon",
+            "id": 71,
+            "price": 168000,
+            "maxSpeed": 172,
+            "uphillSpeed": 100,
+            "downhillSpeed": 125,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 56000,
+            "carImg": "/Images/off-road/EVERON.png"
+        },
+        {
+            "name": "Faggio",
+            "id": 72,
+            "price": 3600,
+            "maxSpeed": 172,
+            "uphillSpeed": 100,
+            "downhillSpeed": 125,
+            "maxSpeedUpgraded": "Unavailable",
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "Unavailable",
+            "Finance": 1200,
+            "carImg": "/Images/off-road/FAGGIO.png"
+        },
+        {
+            "name": "Freecrawler",
+            "id": 73,
+            "price": 108000,
+            "maxSpeed": 172,
+            "uphillSpeed": 103,
+            "downhillSpeed": 120,
+            "maxSpeedUpgraded": 165,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 36000,
+            "carImg": "/Images/off-road/FREECRAWLER.png"
+        },
+        {
+            "name": "Guardian Truck",
+            "id": 74,
+            "price": 54000,
+            "maxSpeed": 172,
+            "uphillSpeed": 107,
+            "downhillSpeed": 125,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 18000,
+            "carImg": "/Images/off-road/GUARDIAN_TRUCK.png"
+        },
+        {
+            "name": "Manchez",
+            "id": 75,
+            "price": 6600,
+            "maxSpeed": 172,
+            "uphillSpeed": 90,
+            "downhillSpeed": 109,
+            "maxSpeedUpgraded": 119,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "slow",
+            "Finance": 2200,
+            "carImg": "/Images/off-road/MANCHEZ.png"
+        },
+        {
+            "name": "Mesa Trail",
+            "id": 76,
+            "price": 43800,
+            "maxSpeed": 172,
+            "uphillSpeed": 105,
+            "downhillSpeed": 124,
+            "maxSpeedUpgraded": 155,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "medium",
+            "Finance": 14600,
+            "carImg": "/Images/off-road/MESA_TRAIL.png"
+        },
+        {
+            "name": "Raid",
+            "id": 77,
+            "price": 660000,
+            "maxSpeed": 172,
+            "uphillSpeed": 109,
+            "downhillSpeed": 139,
+            "maxSpeedUpgraded": 165,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 219978,
+            "carImg": "/Images/off-road/RAID.png"
+        },
+        {
+            "name": "Riata",
+            "id": 78,
+            "price": 120000,
+            "maxSpeed": 165,
+            "uphillSpeed": 90,
+            "downhillSpeed": 113,
+            "maxSpeedUpgraded": 165,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 40000,
+            "carImg": "/Images/off-road/RIATA.png"
+        },
+        {
+            "name": "Sanchez",
+            "id": 79,
+            "price": 6000,
+            "maxSpeed": 172,
+            "uphillSpeed": 93,
+            "downhillSpeed": 105,
+            "maxSpeedUpgraded": 103,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "slow",
+            "Finance": 2000,
+            "carImg": "/Images/off-road/SANCHEZ.png"
+        },
+        {
+            "name": "Sandking",
+            "id": 80,
+            "price": 78000,
+            "maxSpeed": 172,
+            "uphillSpeed": 89,
+            "downhillSpeed": 115,
+            "maxSpeedUpgraded": 165,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 26000,
+            "carImg": "/Images/off-road/SANDKING.png"
+        },
+        {
+            "name": "Vagrant",
+            "id": 81,
+            "price": 60000,
+            "maxSpeed": 170,
+            "uphillSpeed": 109,
+            "downhillSpeed": 130,
+            "maxSpeedUpgraded": 170,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 20000,
+            "carImg": "/Images/off-road/VAGRANT.png"
+        },
+        {
+            "name": "Winky",
+            "id": 82,
+            "price": 90000,
+            "maxSpeed": 170,
+            "uphillSpeed": 109,
+            "downhillSpeed": 124,
+            "maxSpeedUpgraded": 167,
+            "occupacy": 4,
+            "carType": "Off-Road",    
+            "speedLevel": "fast",
+            "Finance": 30000,
+            "carImg": "/Images/off-road/WINKY.png"
+        },
+        {
+            "name": "Banshee 900R",
+            "id": 83,
+            "price": 213600,
+            "maxSpeed": 172,
+            "uphillSpeed": 149,
+            "downhillSpeed": 155,
+            "maxSpeedUpgraded": 188,
+            "occupacy": 4,
+            "carType": "Sports",    
+            "speedLevel": "xtreme",
+            "Finance": 71200,
+            "carImg": "/Images/sports/BANSHEE_900R.png"
+        },
+        {
+            "name": "Bestia GTS",
+            "id": 83,
+            "price": 213600,
+            "maxSpeed": 172,
+            "uphillSpeed": 130,
+            "downhillSpeed": 145,
+            "maxSpeedUpgraded": 175,
+            "occupacy": 4,
+            "carType": "Sports",    
+            "speedLevel": "fast",
+            "Finance": 71200,
+            "carImg": "/Images/sports/BESTIA_GTS.png"
         }
+
+
 
 
     

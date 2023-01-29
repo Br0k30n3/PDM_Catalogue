@@ -200,20 +200,21 @@ ul {
 
 .card {
     display: flex; 
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     margin: 15px;
     border-style: none;
-    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.158)
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.158);
+    height: 14vh;
 }
 .pricing {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    justify-content: center;
 }
 
 .price-list {
@@ -231,13 +232,20 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.speed-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .price-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* width: 50%; */
 }
 #price {
     margin: 5px;
@@ -247,7 +255,7 @@ ul {
     align-items: center;
 }
 .priceTitle {
-    margin: 10px 5px;
+    margin: 0;
     font-size: 42px;
 }
 .divider {
@@ -297,4 +305,41 @@ input[type='checkbox'] {
 label {
     margin: 5px 0;
     font-size: 24px;
+}
+h2 {
+    margin: 1px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.carImg {
+    width: 100%;
+    object-fit: fill;
+}
+.vehicleImg {
+    overflow: hidden;
+    height: 100%; 
+    width: 30%;
+}
+.speed-container,
+.Occupacy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 25px;
+    margin: 10px 0;
+}
+h3 {
+    margin: 0;
+}
+h1.carName {
+    margin: 0 20px;
+    font-size: 24px;
+    width: 10%;
 }
