@@ -58,7 +58,7 @@ $(function () {
         $.getJSON('inventory.json', function (data) {
             for (var i in data.cars) {
                 let carPrice = data.cars[i].price
-                let finance = carPrice * 0.3333;
+                let finance = Math.round(carPrice * 0.3333);
                 if (carType == true) {
                     $('[name="cars"]:checked').each(function (checkbox) {
                         if ($(this).val() == data.cars[i].carType) {
@@ -72,7 +72,7 @@ $(function () {
                                 } else {
                                     // If the checkbox checked is for Finance only 
                                     if ((finance) <= maxPrice || price == false) {
-                                        output += "<div class='card'>" +"<div class='vehicleImg'><img class='carImg' src="+ data.cars[i].carImg +"></div>"+ "<div class='info'><h1 class='carName'>" + data.cars[i].name + "</h1>" + "<h2 class='carType'>Car Type: " + data.cars[i].carType + "</h2>" + "<h3 class='financing'><div class='price-section'>Finance Price<li class='price-list'>" + "$" + finance.toLocaleString('en-us') + "</li></div></h3>" + "<div class='speed-section'><div class='speed-container'><h2>Speed Level</h2><h3>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</h3></div>" + "<div class='speed-container'><h3>Max Speed</h3><h3>" + data.cars[i].maxSpeedUpgraded + "</h3></div></div>" + "<div class='Occupacy-container'><h3>Max Occupacy</h3><h3>" + data.cars[i].occupacy + "</h3></div></div></div>";
+                                        output += "<div class='card'>" +"<div class='vehicleImg'><img class='carImg' src="+ data.cars[i].carImg +"></div>"+ "<div class='info'><h1 class='carName'>" + data.cars[i].name + "</h1>" + "<h2 class='carType'>Car Type: " + data.cars[i].carType + "</h2>" + "<h3 class='financing'><div class='price-section'>Finance Price<li class='price-list'>" + "$" + finance.toLocaleString('en-us') + "</li></div></h3>" + "<div class='speed-section'><div class='speed-container'><h3>Speed Level</h3><h3>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</h3></div>" + "<div class='speed-container'><h3>Max Speed</h3><h3>" + data.cars[i].maxSpeedUpgraded + "</h3></div></div>" + "<div class='Occupacy-container'><h3>Max Occupacy</h3><h3>" + data.cars[i].occupacy + "</h3></div></div></div>";
                                     }
                                 }
                             } else {
@@ -91,12 +91,12 @@ $(function () {
                         // if the checkbox marked is for purchase onlyy
                         if ($('[name="paymentOption"]:checked').val() == 'purchase') {
                             if (data.cars[i].price <= maxPrice || price == false) {
-                                output += "<div class='card'>" +"<div class='vehicleImg'><img class='carImg' src="+ data.cars[i].carImg +"></div>" + "<div class='info'><h1 class='carName'>" + data.cars[i].name + "</h1>" + "<h2 class='carType'>Car Type: " + data.cars[i].carType + "</h2>" + "<h3 class='pricing'><div class='price-section'>Purchase Price<li class='price-list'>" + "$" + data.cars[i].price.toLocaleString('en-us') + "</li></div>" + "<div class='price-section'>Finance Price<li class='price-list'>" + "$" + finance.toLocaleString('en-us') + "</li></div></h3>" + "<div class='speed-section'><div class='speed-container'><h3>Speed Level</h3><h3>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</h3></div>" + "<div class='speed-container'><h2>Max Speed</h2><h3>" + data.cars[i].maxSpeedUpgraded + "</h3></div></div>" + "<div class='Occupacy-container'><h3>Max Occupacy</h3><h3>" + data.cars[i].occupacy + "</h3></div></div></div>";
+                                output += "<div class='card'>" +"<div class='vehicleImg'><img class='carImg' src="+ data.cars[i].carImg +"></div>" + "<div class='info'><h1 class='carName'>" + data.cars[i].name + "</h1>" + "<h2 class='carType'>Car Type: " + data.cars[i].carType + "</h2>" + "<h3 class='pricing'><div class='price-section'>Purchase Price<li class='price-list'>" + "$" + data.cars[i].price.toLocaleString('en-us') + "</li></div>" + "<div class='price-section'>Finance Price<li class='price-list'>" + "$" + finance.toLocaleString('en-us') + "</li></div></h3>" + "<div class='speed-section'><div class='speed-container'><h3>Speed Level</h3><h3>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</h3></div>" + "<div class='speed-container'><h3>Max Speed</h3><h3>" + data.cars[i].maxSpeedUpgraded + "</h3></div></div>" + "<div class='Occupacy-container'><h3>Max Occupacy</h3><h3>" + data.cars[i].occupacy + "</h3></div></div></div>";
                             }
                         } else {
                             // If the checkbox checked is for Finance only 
                             if ((finance) <= maxPrice || price == false) {
-                                output += "<div class='card'>" +"<div class='vehicleImg'><img class='carImg' src="+ data.cars[i].carImg +"></div>" + "<div class='info'><h1 class='carName'>" + data.cars[i].name + "</h1>" + "<h2 class='carType'>Car Type: " + data.cars[i].carType + "</h2>" + "<h3 class='pricing'><div class='price-section'>Finance Price<li class='price-list'>" + "$" + finance.toLocaleString('en-us') + "</li></div></h3>" + "<div class='speed-section'><div class='speed-container'><h2>Speed Level</h2><h3>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</h3></div>" + "<div class='speed-container'><h3>Max Speed</h3><h3>" + data.cars[i].maxSpeedUpgraded + "</h3></div></div>" + "<div class='Occupacy-container'><h3>Max Occupacy</h3><h3>" + data.cars[i].occupacy + "</h3></div></div></div>";
+                                output += "<div class='card'>" +"<div class='vehicleImg'><img class='carImg' src="+ data.cars[i].carImg +"></div>" + "<div class='info'><h1 class='carName'>" + data.cars[i].name + "</h1>" + "<h2 class='carType'>Car Type: " + data.cars[i].carType + "</h2>" + "<h3 class='pricing'><div class='price-section'>Finance Price<li class='price-list'>" + "$" + finance.toLocaleString('en-us') + "</li></div></h3>" + "<div class='speed-section'><div class='speed-container'><h3>Speed Level</h3><h3>" + data.cars[i].speedLevel.toLocaleString('en-us') + "</h3></div>" + "<div class='speed-container'><h3>Max Speed</h3><h3>" + data.cars[i].maxSpeedUpgraded + "</h3></div></div>" + "<div class='Occupacy-container'><h3>Max Occupacy</h3><h3>" + data.cars[i].occupacy + "</h3></div></div></div>";
                             }
                         }
                     } else {

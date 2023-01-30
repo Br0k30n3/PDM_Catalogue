@@ -343,3 +343,8 @@ h1.carName {
     font-size: 24px;
     width: 10%;
 }
+#speedlevel,
+#occupacy-container,
+.fade {
+    opacity: 0.25;
+}
