@@ -655,7 +655,7 @@
             "carType": "muscle",    
             "speedLevel": "fast",
             "Finance": 24000,
-            "carImg": "/Images/muscles/GAUNLET_CLASSIC.png"
+            "carImg": "/Images/muscles/GAUNTLET_CLASSIC.png"
         },
         {
             "name": "Gaunlet Hellfire",
@@ -669,7 +669,7 @@
             "carType": "muscle",    
             "speedLevel": "xtreme",
             "Finance": 28000,
-            "carImg": "/Images/muscles/GAUNLET_HELLFIRE.png"
+            "carImg": "/Images/muscles/GAUNTLET_HELLFIRE.png"
         },
         {
             "name": "Gaunlet (Redwood)",
@@ -683,7 +683,7 @@
             "carType": "muscle",    
             "speedLevel": "slow",
             "Finance": 24000,
-            "carImg": "/Images/muscles/GAUNLET_REDWOOD.png"
+            "carImg": "/Images/muscles/GAUNTLET_REDWOOD.png"
         },
         {
             "name": "Gaunlet Classic (Custom)",
@@ -697,7 +697,7 @@
             "carType": "muscle",    
             "speedLevel": "xtreme",
             "Finance": 62000,
-            "carImg": "/Images/muscles/GAUNLET_CLASSIC.png"
+            "carImg": "/Images/muscles/GAUNTLET_CLASSIC.png"
         },
         {
             "name": "Gaunlet",
@@ -2644,20 +2644,6 @@
             "speedLevel": "xtreme",
             "Finance": 20000,
             "carImg": "/Images/suvs/XLS.png"
-        },
-        {
-            "name": "XLS",
-            "id": 190,
-            "price": 60000,
-            "maxSpeed": 126,
-            "uphillSpeed": 110,
-            "downhillSpeed": 125,
-            "maxSpeedUpgraded": 170,
-            "occupacy": 4,
-            "carType": "suv",    
-            "speedLevel": "xtreme",
-            "Finance": 20000,
-            "carImg": "/Images/vans/XLS.png"
         }
 
 
