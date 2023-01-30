@@ -417,7 +417,7 @@
             "carType": "job Vehicle",
             "speedLevel": "medium",
             "Finance": 4000,
-            "carImg": "/Images/jobVehicles/ALPHA.png"
+            "carImg": "/Images/jobVehicles/NEWS.png"
         },
         {
             "name": "Taco Van",
@@ -431,7 +431,7 @@
             "carType": "job Vehicle",
             "speedLevel": "medium",
             "Finance": 6000,
-            "carImg": "/Images/jobVehicles/ALPHA.png"
+            "carImg": "/Images/jobVehicles/TACO.png"
         },
         {
             "name": "Taxi Cab",
@@ -445,7 +445,7 @@
             "carType": "job Vehicle",
             "speedLevel": "medium",
             "Finance": 2000,
-            "carImg": "/Images/jobVehicles/ALPHA.png"
+            "carImg": "/Images/jobVehicles/TAXI.png"
         },
         {
             "name": "Blade",
@@ -2111,7 +2111,7 @@
             "carType": "super",    
             "speedLevel": "slow",
             "Finance": 111990,
-            "carImg": "/Images/supers/IMORGAN.png"
+            "carImg": "/Images/supers/IMORGON.png"
         },
         {
             "name": "Itali GTB",
@@ -2195,7 +2195,7 @@
             "carType": "super",    
             "speedLevel": "medium",
             "Finance": 139990,
-            "carImg": "/Images/supers/PFISTER_811.png"
+            "carImg": "/Images/supers/PFISTER_911.png"
         },
         {
             "name": "RE-7B",
@@ -2237,7 +2237,7 @@
             "carType": "super",    
             "speedLevel": "xtreme",
             "Finance": 279980,
-            "carImg": "/Images/supers/S80.png"
+            "carImg": "/Images/supers/S_80.png"
         },
         {
             "name": "SC1",
