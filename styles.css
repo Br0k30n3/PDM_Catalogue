@@ -67,7 +67,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin:auto;
-    padding: 15px 0;
     background-color: rgba(255, 240, 220, 0.75);
     border-style: none;
     border-radius: 5px 5px 0 0;
@@ -92,12 +91,11 @@ body {
     align-items: center;
     width: 80%;
     background-color: #fcfdff;
-    height: 55vh;
 }
 #categories {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-start;
     padding: 0;
 }
@@ -142,13 +140,13 @@ body {
 } */
 
 #Search {
-    width: 125px;
-    height: 75px;
+    width: 70px;
+    height: 30px;
     background-color: #548CFF;
     border-style: none;
     color: #ffff;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 15px;
 }
 #Search:hover {
     cursor: pointer;
@@ -180,7 +178,7 @@ ul {
     margin: 15px;
     border-style: none;
     box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.158);
-    height: 14vh;
+    height: 20vh;
 }
 .pricing {
     display: flex;
@@ -218,7 +216,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 #price {
     margin: 5px;
@@ -256,6 +254,10 @@ input[type="number"]::-webkit-outer-spin-button {
 #Type {
     flex-wrap: wrap;
     width: 33%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
 #speedType {
     display: flex;
@@ -266,7 +268,7 @@ input[type="number"]::-webkit-outer-spin-button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 .priceInput {
     width: 50%;
@@ -282,6 +284,10 @@ label {
     margin: 5px 0;
     font-size: 18px;
 }
+label[for="purchase"],
+label[for="finance"] {
+    margin: 0;
+}
 h2 {
     margin: 1px;
 }
@@ -295,7 +301,8 @@ h2 {
 }
 .carImg {
     width: 100%;
-    object-fit: fill;
+    height: 100%;
+    object-fit: cover;
 }
 .vehicleImg {
     overflow: hidden;
@@ -304,12 +311,12 @@ h2 {
 }
 .speed-container,
 .Occupacy-container {
+    padding: 15px;
     display: flex;
+    padding-top: 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 25px;
-    margin: 10px 0;
 }
 h3 {
     margin: 0;
@@ -322,7 +329,12 @@ h1.carName {
 .OccuDiv,
 .speedLevelContainer {
     padding: 15px;
+    display: flex;
     padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 h2.title {
     margin: 0;
@@ -344,4 +356,19 @@ h2.title {
     display: flex;
     flex-direction: column;
     opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#pricebox {
+    display: flex;
+}
+input[name="minMaxPrice"] {
+    margin-bottom: 5px;
+}
+.OccuDiv {
+    width: 14%;
+}
+form[title="Car Type"] {
+    width: 83%;
 }
