@@ -24,8 +24,104 @@
 
     <div class="header-wrapper">
         <div class="header">
-            <img src="/Images/PDM2.png" id="header-img" alt="Premium Deluxe Motorsport Logo">
-            <h1 id="heading">PDM Catalouge</h1>
+            <div class="left-header">
+                <img src="/Images/PDM2.png" id="header-img" alt="Premium Deluxe Motorsport Logo">
+                <div id="budget-search">
+                    <div id="priceBox">
+                        <p class="box">
+                            <div class="price-container">
+                                <div class="minMax">
+                                    <input type="number" name="minMaxPrice" class="goldSilverText priceInput"
+                                        placeholder="Min" id="minAmount" disabled>
+                                    <input type="number" name="minMaxPrice" class="goldSilverText priceInput"
+                                        placeholder="Max" id="maxAmount2" disabled>
+                                </div>
+                                <form title="Maximum Price" id="price" onkeydown="return event.key != 'Enter';">
+                                    <h2 class="priceTitle">Maximum Price:</h2>
+
+                                    <input type="number" name="maxPrice" class="goldSilverText priceInput"
+                                        placeholder="Max" id="maxAmount">
+                                </form>
+                                
+                            </div>
+                            <div class="paymentOptionDiv">
+                                <label for="purchase">Cash</label>
+                                <input type="checkbox" id="purchase" value="purchase" class="paymentTypeCheckbox"
+                                    name="paymentOption">
+                            </div>
+                            <div class="paymentOptionDiv">
+                                <label for="finance">Finance</label>
+                                <input type="checkbox" id="finance" value="finance" class="paymentTypeCheckbox"
+                                    name="paymentOption">
+                            </div>
+                        </p>
+                    </div>
+                    <button id="Search">Search</button>
+                </div>
+            </div>
+            <div class="right-header">
+                <div id="categories">
+                    <div id="Type">
+                        <h2 class="title"> Type: </h2>
+                        <form title="Car Type">
+                            <label for="compact">Compact</label>
+                            <input name="cars" type="checkbox" value="compact" class="carCheckbox">
+                            <label for="coupe">Coupe</label>
+                            <input name="cars" type="checkbox" value="coupe" class="carCheckbox">
+                            <label for="job Vehicle">Job Vehicle</label>
+                            <input name="cars" type="checkbox" value="job Vehicle" class="carCheckbox">
+                            <label for="sedan">Sedan</label>
+                            <input name="cars" type="checkbox" value="sedan" class="carCheckbox">
+                            <label for="Sports">Sports Car</label>
+                            <input name="cars" type="checkbox" value="Sports" class="carCheckbox">
+                            <label for="sports-classic">Sports(Classic)</label>
+                            <input name="cars" type="checkbox" value="sports-classic" class="carCheckbox">
+                            <label for="super">Super Car</label>
+                            <input name="cars" type="checkbox" value="super" class="carCheckbox">
+                            <label for="muscle">Muscle Car</label>
+                            <input name="cars" type="checkbox" value="muscle" class="carCheckbox">
+                            <label for="Off-Road">Off-Road/Bike</label>
+                            <input name="cars" type="checkbox" value="Off-Road" class="carCheckbox">
+                            <label for="suv">SUV</label>
+                            <input name="cars" type="checkbox" value="suv" class="carCheckbox">
+                            <label for="van">Van</label>
+                            <input name="cars" type="checkbox" value="van" class="carCheckbox">
+                        </form>
+                    </div>
+                    <div class="speedLevelContainer">
+                        <h2 class="title fade"> Speed Level: </h2>
+                        <form title="Speed Level" id="speedlevel">
+                            <div id="slider-range"></div>
+                            <label for="slow">Slow</label>
+                            <input type="checkbox" value="slow" class="speedLevelCheckbox" name="speedLevels">
+                            <label for="medium">Medium</label>
+                            <input type="checkbox" value="medium" class="speedLevelCheckbox" name="speedLevels">
+                            <label for="fast">Fast</label>
+                            <input type="checkbox" value="fast" class="speedLevelCheckbox" name="speedLevels">
+                            <label for="xtreme">Extreme</label>
+                            <input type="checkbox" value="xtreme" class="speedLevelCheckbox" name="speedLevels">
+                        </form>
+                    </div>
+                    <div class="OccuDiv">
+                        <h2 class="title fade"> Occupacy: </h2>
+                        <form title="Occupacy" id="occupacy-container">
+                            <label for="1">1</label>
+                            <input type="checkbox" value="1" class="occupacyCheckbox" name="occupacies">
+                            <label for="2">2</label>
+                            <input type="checkbox" value="2" class="occupacyCheckbox" name="occupacies">
+                            <label for="3">3</label>
+                            <input type="checkbox" value="3" class="occupacyCheckbox" name="occupacies">
+                            <label for="4">4</label>
+                            <input type="checkbox" value="4" class="occupacyCheckbox" name="occupacies">
+                            <label for="5">5</label>
+                            <input type="checkbox" value="5" class="occupacyCheckbox" name="occupacies">
+                            <label for="6">6</label>
+                            <input type="checkbox" value="6" class="occupacyCheckbox" name="occupacies">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -34,112 +130,7 @@
 
         </div>
         <div class="main-panel">
-            <!-- <div class="hero-section">
-            <div id="hero-text">
-                <h1 id="hero">Find a Vehicle!</h1>
-                <h1>Here at Premium Deluxe Motorsport we value our customers' time and happiness</h1>
-            </div>
-        </div> -->
-            <div id="categories">
-                <h2 class="title"> Type: </h2>
-                <form id="Type" title="Car Type">
-                    <label for="compact">Compact</label>
-                    <input name="cars" type="checkbox" value="compact" class="carCheckbox">
-                    <label for="coupe">Coupe</label>
-                    <input name="cars" type="checkbox" value="coupe" class="carCheckbox">
-                    <label for="job Vehicle">Job Vehicle</label>
-                    <input name="cars" type="checkbox" value="job Vehicle" class="carCheckbox">
-                    <label for="sedan">Sedan</label>
-                    <input name="cars" type="checkbox" value="sedan" class="carCheckbox">
-                    <label for="Sports">Sports Car</label>
-                    <input name="cars" type="checkbox" value="Sports" class="carCheckbox">
-                    <label for="sports-classic">Sports(Classic)</label>
-                    <input name="cars" type="checkbox" value="sports-classic" class="carCheckbox">
-                    <label for="super">Super Car</label>
-                    <input name="cars" type="checkbox" value="super" class="carCheckbox">
-                    <label for="muscle">Muscle Car</label>
-                    <input name="cars" type="checkbox" value="muscle" class="carCheckbox">
-                    <label for="Off-Road">Off-Road/Bike</label>
-                    <input name="cars" type="checkbox" value="Off-Road" class="carCheckbox">
-                    <label for="suv">SUV</label>
-                    <input name="cars" type="checkbox" value="suv" class="carCheckbox">
-                    <label for="van">Van</label>
-                    <input name="cars" type="checkbox" value="van" class="carCheckbox">
-                </form>
-                <h2 class="title fade"> Speed Level: </h2>
-                <form title="Speed Level" id="speedlevel">
-                    <div id="slider-range"></div>
-                    <label for="slow">Slow</label>
-                    <input type="checkbox" value="slow" class="speedLevelCheckbox" name="speedLevels" disabled>
-                    <label for="medium">Medium</label>
-                    <input type="checkbox" value="medium" class="speedLevelCheckbox" name="speedLevels" disabled>
-                    <label for="fast">Fast</label>
-                    <input type="checkbox" value="fast" class="speedLevelCheckbox" name="speedLevels" disabled>
-                    <label for="xtreme">Extreme</label>
-                    <input type="checkbox" value="xtreme" class="speedLevelCheckbox" name="speedLevels" disabled>
-                </form>
-                <h2 class="title fade"> Occupacy: </h2>
-                <form title="Occupacy" id="occupacy-container">
-                    <label for="1">1</label>
-                    <input type="checkbox" value="1" class="occupacyCheckbox" name="occupacies" disabled>
-                    <label for="2">2</label>
-                    <input type="checkbox" value="2" class="occupacyCheckbox" name="occupacies" disabled>
-                    <label for="3">3</label>
-                    <input type="checkbox" value="3" class="occupacyCheckbox" name="occupacies" disabled>
-                    <label for="4">4</label>
-                    <input type="checkbox" value="4" class="occupacyCheckbox" name="occupacies" disabled>
-                    <label for="5">5</label>
-                    <input type="checkbox" value="5" class="occupacyCheckbox" name="occupacies" disabled>
-                    <label for="6">6</label>
-                    <input type="checkbox" value="6" class="occupacyCheckbox" name="occupacies" disabled>
-                </form>
-            </div>
 
-
-            <!-- <div id = "priceBox">
-            <p class="box">
-                <div class="price-container">
-                     <div class="priceInput"> 
-                        <h2 class="priceTitle">Maximum Price:</h2>
-                        <input type="text" id="lowAmount" class="goldSliderText" value="250000" placeholder="Enter Budget">
-                    </div>
-                    <div class="priceInput" id="medium-low"> 
-                        <h2 class="priceTitle">Maximum Price:</h2>
-                        <input type="text" id="mediumLowAmount" class="goldSliderText" value="500000" placeholder="Enter Budget">
-                    </div>
-                    <div class="priceInput" id="medium"> 
-                        <h2 class="priceTitle">Maximum Price:</h2>
-                        <input type="text" id="mediumAmount" class="goldSliderText" value="1000000" placeholder="Enter Budget">
-                    </div>
-                    <div class="priceInput" id="max"> 
-                        <h2 class="priceTitle">Maximum Price:</h2>
-                        <input type="text" id="maxAmount" class="goldSliderText" value="5000000" placeholder="Enter Budget">
-                    </div> -->
-
-            <!-- </p>  -->
-
-
-            <div id="budget-search">
-                <div id="priceBox">
-                    <p class="box">
-                        <div class="price-container">
-                            <form title="Maximum Price" id="price" onkeydown="return event.key != 'Enter';">
-                                <h2 class="priceTitle">Maximum Price:</h2>
-                                <input type="number" name="maxPrice" class="goldSilverText" placeholder="Enter Budget"
-                                    id="maxAmount">
-                                <label for="purchase">Cash</label>
-                                <input type="checkbox" id="purchase" value="purchase" class="paymentTypeCheckbox"
-                                    name="paymentOption">
-                                <label for="finance">Finance</label>
-                                <input type="checkbox" id="finance" value="finance" class="paymentTypeCheckbox"
-                                    name="paymentOption">
-                            </form>
-                        </div>
-                    </p>
-                </div>
-                <br><br>
-                <button id="Search">Search</button>
-            </div>
         </div>
         <div class="left-panel"></div>
     </div>
