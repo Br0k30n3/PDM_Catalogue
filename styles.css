@@ -80,7 +80,7 @@ body {
 }
 
 #header-img {
-    width: 250px;
+    width: 245px;
     margin-left: 15px;
 }
 
@@ -147,6 +147,7 @@ body {
     color: #ffff;
     border-radius: 15px;
     font-size: 15px;
+    margin: auto 0;
 }
 #Search:hover {
     cursor: pointer;
@@ -271,7 +272,8 @@ input[type="number"]::-webkit-outer-spin-button {
     padding: 10px;
 }
 .priceInput {
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 input[type='radio'] {
     margin: 5px 0;
@@ -371,4 +373,9 @@ input[name="minMaxPrice"] {
 }
 form[title="Car Type"] {
     width: 83%;
+}
+#paymentOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

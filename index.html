@@ -29,33 +29,37 @@
                 <div id="budget-search">
                     <div id="priceBox">
                             <div class="price-container">
-                                <div class="minMax">
+                                
+                                <form class="minMax" onkeydown="return event.key != 'Enter';">
+                                    <input type="checkbox" name="priceCheckbox" value="minMax" id="minMaxCheckBox" disabled>
                                     <h2 class="priceTitle"> Price Range:</h2>
                                     <input type="number" name="minMaxPrice" class="goldSilverText priceInput"
-                                        placeholder="Min" id="minAmount" disabled>
+                                        placeholder="Min" id="minAmount" disabled="disabled">
                                     <input type="number" name="minMaxPrice" class="goldSilverText priceInput"
-                                        placeholder="Max" id="maxAmount2" disabled>
-                                </div>
+                                        placeholder="Max" id="maxAmount2" disabled="disabled">
+                                </form>
                                 <form title="Maximum Price" id="price" onkeydown="return event.key != 'Enter';">
-                                    <h2 class="priceTitle">Maximum Price:</h2>
+                                    <input type="checkbox" name="priceCheckbox" value="minMax" id="maxCheckBox">
+                                    <h2 class="priceTitle">Max Price:</h2>
 
                                     <input type="number" name="maxPrice" class="goldSilverText priceInput"
-                                        placeholder="Max" id="maxAmount">
+                                        placeholder="Max" id="maxAmount" disabled="disabled">
                                 </form>
                                 
                             </div>
-                            <div class="paymentOptionDiv">
-                                <label for="purchase">Cash</label>
-                                <input type="checkbox" id="purchase" value="purchase" class="paymentTypeCheckbox"
-                                    name="paymentOption">
-                            </div>
-                            <div class="paymentOptionDiv">
-                                <label for="finance">Finance</label>
-                                <input type="checkbox" id="finance" value="finance" class="paymentTypeCheckbox"
-                                    name="paymentOption">
+                            <div id="paymentOptions">
+                                <div class="paymentOptionDiv">
+                                    <label for="purchase">Cash</label>
+                                    <input type="checkbox" id="purchase" value="purchase" class="paymentTypeCheckbox"
+                                        name="paymentOption">
+                                </div>
+                                <div class="paymentOptionDiv">
+                                    <label for="finance">Finance</label>
+                                    <input type="checkbox" id="finance" value="finance" class="paymentTypeCheckbox"
+                                        name="paymentOption">
+                                </div>
                             </div>
                     </div>
-                    <button id="Search">Search</button>
                 </div>
             </div>
             <div class="right-header">
@@ -122,7 +126,9 @@
                             <input type="checkbox" value="8" class="occupacyCheckbox" name="occupacies">
                         </form>
                     </div>
+                    <button id="Search">Search</button>
                 </div>
+                
             </div>
 
         </div>
