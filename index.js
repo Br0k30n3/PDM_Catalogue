@@ -40,7 +40,7 @@
             let paymentOption = false;
 
             // If Maximimum Price text Input has any characters in it, price is set to true, if not, it's set to false
-            if (maxPriceLength > 0 && !disabled) {
+            if (maxPriceLength > 0) {
                 price = true
                 console.log("price = true")
             } else if (maxPriceLength == 0) {
